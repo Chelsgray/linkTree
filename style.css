@@ -76,7 +76,22 @@ a:hover {
 }
 
 @media screen and (max-width: 480px) {
+    .content {
+        margin-top: 0rem;
+    }
+    .name h3 {
+        margin-block-start: .25rem;
+        margin-block-end: .25rem;
+    }
+    .blurb {
+        line-height: 1;
+    }
+    .blurb p {
+        margin-block-start: .25rem;
+        margin-block-end: .25rem;
+    }
     a {
-      width: 75%;
+        margin-top: 1rem;
+        width: 75%;
     }
   }
